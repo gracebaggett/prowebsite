@@ -1,0 +1,9 @@
+.site-header {
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.site-logo-img {
+  display: block;
+  border-radius: 80px;
+}
