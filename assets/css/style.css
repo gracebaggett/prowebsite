@@ -7,3 +7,30 @@
   display: block;
   border-radius: 80px;
 }
+
+.btn-fb {
+  font-size: 25px;
+  padding: 10px 12px;
+}
+
+.btn-insta {
+  font-size: 25px;
+  padding: 10px 12px;
+}
+
+.btn-linkedin {
+  font-size: 25px;
+  padding: 10px 12px;
+}
+
+.btn-fb:hover {
+  background-color:pink;
+}
+
+.btn-insta:hover {
+  background-color:pink;
+}
+
+.btn-linkedin:hover {
+  background-color:pink;
+}
