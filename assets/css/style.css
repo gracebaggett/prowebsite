@@ -55,3 +55,10 @@ section {
     flex: 1;
   }
 }
+
+.items-style1 {
+  justify-content:center;
+  margin: 2.75rem 0;
+  position: relative;
+  flex-wrap: wrap;
+}
