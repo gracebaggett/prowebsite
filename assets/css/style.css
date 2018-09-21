@@ -61,4 +61,17 @@ section {
   margin: 2.75rem 0;
   position: relative;
   flex-wrap: wrap;
+  border-style: solid;
+}
+
+.column-grid:hover, .column-grid-skills:hover, .column-grid-education:hover {
+  background-color: red;
+}
+
+.column-grid-skills {
+  padding-right: 2.80rem;
+}
+
+.column-grid-education {
+  padding-left: 2.80rem;
 }
