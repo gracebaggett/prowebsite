@@ -65,7 +65,7 @@ section {
 }
 
 .column-grid:hover, .column-grid-skills:hover, .column-grid-education:hover {
-  background-color: red;
+  background-color: pink;
 }
 
 .column-grid-skills {
