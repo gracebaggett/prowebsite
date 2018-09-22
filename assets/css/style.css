@@ -3,9 +3,28 @@
   text-align: center;
 }
 
+.site-title {
+  font-family: 'Pacifico', cursive;
+  color: white;
+}
+
+.short-bio {
+  font-family: 'Pacifico', cursive;
+  color: white;
+}
+
 .site-logo-img {
   display: block;
   border-radius: 80px;
+}
+
+.vt-pic {
+  display: block;
+  border-radius: 5px;
+}
+
+.bio-p {
+  font-size: 20px;
 }
 
 .btn-fb {
@@ -56,18 +75,22 @@ section {
   }
 }
 
- .indented {
-  padding-left: 50pt;
-  padding-right: 50pt;
-  }
-
-
+.site-header {
+  display: block;
+  border-style: solid;
+  padding-bottom: 3rem;
+  padding-top: 2.75rem;
+  border-radius: 5px;
+  background-color: #1fcecb;
+}
 .items-style1 {
   justify-content:center;
   margin: 2.75rem 0;
   position: relative;
   flex-wrap: wrap;
   border-style: solid;
+  border-radius: 5px;
+  border-color: #1fcecb;
 }
 
 .column-grid:hover, .column-grid-skills:hover, .column-grid-education:hover {
@@ -80,4 +103,8 @@ section {
 
 .column-grid-education {
   padding-left: 2.80rem;
+}
+
+@font-face {
+    font-family: 'Pacifico', cursive;
 }
