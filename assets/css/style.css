@@ -1,6 +1,15 @@
 .site-header {
   word-wrap: break-word;
   text-align: center;
+  display: flex;
+}
+
+.paper-pic {
+  align-content: left;
+}
+
+.computer-pic {
+  align-content: right;
 }
 
 .site-title {
@@ -108,6 +117,8 @@ a {
   padding-bottom: 2.2rem;
   padding-left: 2.2rem;
   padding-right: 2.2rem;
+  border-style: hidden;
+  border-radius: 5px;
 }
 
 .column-grid-skills {
