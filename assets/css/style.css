@@ -56,6 +56,12 @@ section {
   }
 }
 
+ .indented {
+  padding-left: 50pt;
+  padding-right: 50pt;
+  }
+
+
 .items-style1 {
   justify-content:center;
   margin: 2.75rem 0;
