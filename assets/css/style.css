@@ -4,14 +4,6 @@
   display: flex;
 }
 
-.paper-pic {
-  align-content: left;
-}
-
-.computer-pic {
-  align-content: right;
-}
-
 .site-title {
   font-family: 'Pacifico', cursive;
   color: white;
@@ -32,10 +24,22 @@
   border-radius: 5px;
 }
 
-.bio-p {
+.bio-p, .education-p {
   font-size: 20px;
   color: navy;
   font-family: 'Rubik', sans-serif;
+}
+
+.education {
+  font-size: 30px;
+  color: navy;
+  font-family: 'Pacifico', cursive;
+}
+
+.education-border {
+  border-radius: 5px;
+  border-style: solid;
+  color: #1fcecb;
 }
 
 .btn-fb {
