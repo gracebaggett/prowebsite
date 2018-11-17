@@ -39,6 +39,9 @@ header, .left, aside {
   float: right;
   border-radius: 5px;
 }
+footer {
+  display: flex;
+}
 @media screen and (max-width:990px) {
   #main { flex-wrap: wrap;  }
   .left { flex-basis: 100%; }
