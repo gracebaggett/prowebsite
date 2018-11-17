@@ -15,10 +15,12 @@
 #main > .right {
   flex: 1;
   order: 2;
+  padding: 4em;
 }
 #main > .left {
-  flex: 1;
+  flex: 1.50;
   order: 1;
+  padding-left: 2em;
 }
 #main > aside {
   flex: 1;
@@ -27,22 +29,34 @@
 }
 header {
   background: #1fcecb;
-  height: 15vh;
+  height: 20vh;
 }
 header, .left, aside {
   padding: 1em;
   border-radius: 5px;
 }
 .headshot {
-  height: 200px;
-  width: 200px;
+  height: 225px;
+  width: 225px;
   float: right;
   border-radius: 5px;
-}
-footer {
-  display: flex;
+border-style: solid;
+  border-color: #1fcecb;
 }
 @media screen and (max-width:990px) {
   #main { flex-wrap: wrap;  }
   .left { flex-basis: 100%; }
+}
+.header-text {
+  font-family: 'Pacifico', cursive;
+  color: white;
+  font-size: 28px
+}
+.text1, .text2, .text3, .text4 {
+font-size: 20px;
+font-family: 'Rubik', sans-serif;
+text-indent: 10px;
+}
+.text1, .text2, {
+  text-indent: 10px;
 }
