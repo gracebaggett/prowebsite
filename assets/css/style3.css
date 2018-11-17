@@ -42,7 +42,7 @@
   color: #1fcecb;
 }
 
-.btn-fb {
+.btn-fb, .btn-insta, .btn-linkedin {
   font-size: 25px;
   padding: 10px 12px;
 }
