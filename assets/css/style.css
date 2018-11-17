@@ -24,12 +24,23 @@
 }
 #main > aside {
   flex: 1;
-  background: beige;
+  background: pink;
   order: 3;
 }
 header {
   background: #1fcecb;
-  height: 20vh;
+  height: 30vh;
+}
+.fb, .insta, .linkedin {
+  text-decoration: none;
+}
+.btn-fb, .btn-insta, .btn-linkedin {
+  font-size: 20px;
+  padding: 10px 12px;
+}
+.btn-fb:hover, .btn-insta:hover, .btn-linkedin:hover, .btn-portfolio:hover{
+  background-color:pink;
+  transition: all 0.3s ease;
 }
 header, .left, aside {
   padding: 1em;
@@ -55,7 +66,10 @@ border-style: solid;
 .text1, .text2, .text3, .text4 {
 font-size: 20px;
 font-family: 'Rubik', sans-serif;
-text-indent: 10px;
+}
+.text5 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
 }
 .text1, .text2, {
   text-indent: 10px;
