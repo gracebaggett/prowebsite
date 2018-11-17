@@ -43,6 +43,6 @@ footer {
   border-radius: 5px;
 }
 @media screen and (max-width:990px) {
-  body { flex-wrap: wrap;  }
-  #main { flex-basis: 100%; }
+  #main { flex-wrap: wrap;  }
+  .left { flex-basis: 100%; }
 }
