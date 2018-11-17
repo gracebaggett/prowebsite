@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+  header {
+    background: #1fcecb;
+    height: 15vh;
+  }

@@ -11,22 +11,24 @@ body {
   display: flex;
   flex: 1;
 }
-#main > article {
+#main > .right {
+  flex: 1;
+  order: 2;
+}
+#main > .left {
   flex: 1;
   order: 1;
 }
 #main > aside {
   flex: 0 0 20vw;
-}
-#main > aside {
   background: beige;
-  order: 2;
+  order: 3;
 }
 header {
   background: #1fcecb;
   height: 20vh;
 }
-header, article, aside {
+header, .left, aside {
   padding: 1em;
   border-radius: 5px;
 }
