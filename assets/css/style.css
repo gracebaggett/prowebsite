@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-body {
+.container {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -26,7 +26,7 @@ body {
 }
 header {
   background: #1fcecb;
-  height: 20vh;
+  height: 15vh;
 }
 header, .left, aside {
   padding: 1em;
