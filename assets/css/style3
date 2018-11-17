@@ -1,0 +1,134 @@
+.site-header {
+  word-wrap: break-word;
+  text-align: center;
+  display: flex;
+}
+
+.site-title {
+  font-family: 'Pacifico', cursive;
+  color: white;
+}
+
+.short-bio {
+  font-family: 'Pacifico', cursive;
+  color: white;
+}
+
+.site-logo-img {
+  display: block;
+  border-radius: 80px;
+}
+
+.vt-pic {
+  display: block;
+  border-radius: 5px;
+}
+
+.bio-p, .education-p {
+  font-size: 20px;
+  color: navy;
+  font-family: 'Rubik', sans-serif;
+}
+
+.education {
+  font-size: 30px;
+  color: navy;
+  font-family: 'Pacifico', cursive;
+}
+
+.education-border {
+  border-radius: 5px;
+  border-style: solid;
+  color: #1fcecb;
+}
+
+.btn-fb {
+  font-size: 25px;
+  padding: 10px 14px;
+}
+
+.btn-insta {
+  font-size: 25px;
+  padding: 10px 12px;
+}
+
+.btn-linkedin {
+  font-size: 25px;
+  padding: 10px 12px;
+}
+
+.btn-fb:hover, .btn-insta:hover, .btn-linkedin:hover {
+  background-color:pink;
+  transition: all 0.3s ease;
+}
+
+main {
+  max-width: 1200px
+  margin: 0 auto;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex-basis: 100%
+}
+
+@media screen and (min-width: 800px) {
+  .column {
+    flex: 1;
+  }
+}
+
+.site-header {
+  display: block;
+  border-style: solid;
+  padding-bottom: 3rem;
+  padding-top: 2.75rem;
+  border-radius: 5px;
+  background-color: #1fcecb;
+}
+.items-style1 {
+  justify-content:center;
+  margin: 2.75rem 0;
+  position: relative;
+  flex-wrap: wrap;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #1fcecb;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: navy;
+}
+
+a {
+  text-decoration: none;
+  color: navy;
+}
+
+.column-grid:hover, .column-grid-skills:hover, .column-grid-education:hover {
+  background-color: pink;
+  transition: all 0.3s ease;
+  transform: translate(10%,10%)!important;
+}
+
+.column-grid, .column-grid-skills, .column-grid-education {
+  padding-top: 2.2rem;
+  padding-bottom: 2.2rem;
+  padding-left: 2.2rem;
+  padding-right: 2.2rem;
+  border-style: hidden;
+  border-radius: 5px;
+}
+
+.column-grid-skills {
+  padding-right: 2.2rem;
+}
+
+.column-grid-education {
+padding-left: 2.2rem;
+}
