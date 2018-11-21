@@ -1,0 +1,30 @@
+.flex-grid {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-grid, .col {
+  width: 100%;
+}
+
+@media (max-width: 400px) {
+  .flex-grid {
+    display: block;
+    .col {
+      width: 100%;
+      margin: 0 0 10px 0;
+    }
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 20px;
+}
+.col {
+  padding: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #1fcecb;
+}
