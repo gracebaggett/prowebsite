@@ -28,3 +28,12 @@ body {
   border-radius: 5px;
   border-color: #1fcecb;
 }
+
+.header-text {
+  font-family: 'Pacifico', cursive;
+}
+
+.body-text {
+  font-size: 20px;
+  font-family: 'Rubik', sans-serif;
+}
