@@ -6,15 +6,9 @@
   width: 100%;
 }
 
-@media (max-width: 400px) {
-  .flex-grid {
-    display: block;
-    .col {
-      width: 100%;
-      margin: 0 0 10px 0;
-    }
-  }
-}
+@media screen and (max-width:1500px) {
+  .flex-grid { flex-wrap: wrap; }
+  .col { flex-basis: 100%; }
 
 * {
   box-sizing: border-box;
@@ -27,6 +21,28 @@ body {
   border-style: solid;
   border-radius: 5px;
   border-color: #1fcecb;
+}
+
+.vt-stories {
+  height: 100px;
+  width: 330px;
+  padding-bottom: 2em;
+}
+
+.vt-magazine {
+  height: 150px;
+  width: 295px;
+  padding-bottom: 2em;
+}
+
+.vt-clahs {
+  height: 225px;
+  width: 225px;
+}
+
+.philologia {
+  height: 150px;
+  width: 275px;
 }
 
 .header-text {
