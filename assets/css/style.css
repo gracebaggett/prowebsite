@@ -93,20 +93,14 @@ ul.body-text {
   font-size: 18px;
   font-family: 'Rubik', sans-serif;
 }
-
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
 @media screen and (max-width:525px) {
   .grid {
     display: block;
   }
-}
-
-* {
-  box-sizing: border-box;
 }
 body {
   padding: 20px;
