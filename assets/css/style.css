@@ -29,7 +29,12 @@
 }
 header {
   background: #1fcecb;
-  height: 30vh;
+  height: 40vh;
+}
+nav {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-decoration: none;
 }
 .fb, .insta, .linkedin {
   text-decoration: none;
@@ -38,7 +43,7 @@ header {
   font-size: 20px;
   padding: 10px 12px;
 }
-.btn-fb:hover, .btn-insta:hover, .btn-linkedin:hover, .btn-portfolio:hover{
+.btn-fb:hover, .btn-insta:hover, .btn-linkedin:hover, .btn-portfolio:hover, .btn-home:hover{
   background-color: beige;
   transition: all 0.3s ease;
 }
@@ -67,7 +72,7 @@ border-style: solid;
 font-size: 20px;
 font-family: 'Rubik', sans-serif;
 }
-.text5 {
+.text5, .text6 {
   font-family: 'Rubik', sans-serif;
   font-size: 14px;
 }
@@ -81,4 +86,40 @@ font-family: 'Rubik', sans-serif;
   border-radius: 5px;
   border-color: beige;
   border-style: solid;
+}
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+ul.body-text {
+  font-size: 18px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width:525px) {
+  .grid {
+    display: block;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 20px;
+}
+.col {
+  padding: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #1fcecb;
+}
+
+/* IMAGE STYLES */
+div.grid img {
+  width: 100%;
+  margin-bottom: 2em;
 }
